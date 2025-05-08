@@ -15,14 +15,6 @@
       color: #333;
     }
 
-    .hero-image {
-      background-image: url('simplicity.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      width: 100%;
-    }
-
     header {
       background-color: #4a90e2;
       color: white;
@@ -74,6 +66,14 @@
       margin-bottom: 20px;
     }
 
+    article img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+
     .read-more-button {
       display: inline-block;
       margin-top: 20px;
@@ -100,8 +100,6 @@
 </head>
 <body>
 
-  <div class="hero-image"></div>
-
   <header>
     <h1>Mihaela's Blog</h1>
     <nav>
@@ -116,6 +114,7 @@
     <article>
       <h2>Exploring the Beauty of Simplicity</h2>
       <p class="meta">By Mihaela Micheva • May 8, 2025</p>
+      <img src="simplicity.webp" alt="Beautiful scene">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, tortor nec volutpat imperdiet, quam neque porttitor sapien, vel fermentum mi magna a eros.</p>
       <p>Nam gravida nisi sed ante aliquet, a dignissim tortor fringilla. Suspendisse potenti. In venenatis fermentum lacus in pretium.</p>
       <p>Curabitur vel luctus sapien. Quisque condimentum justo vel nisl pretium, vitae ultricies tortor convallis.</p>
